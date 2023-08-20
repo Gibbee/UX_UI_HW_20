@@ -1,0 +1,518 @@
+body {
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-image: url("../image/tolga-ahmetler-JPxeLyfUiw4-unsplash.jpg");
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+body::after {
+    content: "";
+    background-color: #1F1F1F;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    z-index: -1;
+}
+
+.about-me {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.inline-block {
+    display: flex;
+    height: 80px;
+    align-items: self-end;
+}
+
+
+.left {
+    width: 50%;
+    color: white;
+    margin-left: 40px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    align-self: center;
+}
+
+.right {
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+
+}
+
+
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav {
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    color: #30CFD0;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.topnav a.active {
+    color: #AFFFFF;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+.heroImg {
+    height: 600px;
+}
+
+.heroImg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+.about-me p {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+
+.separator img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px;
+    width: 90%;
+}
+
+h2 {
+    font-family: nitti-typewriter-cameo, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #AFFFFF;
+}
+
+.case-study img {
+    width: 100%;
+}
+
+.case-study {
+    margin: auto;
+    width: 80%;
+}
+
+.case-study h3 {
+    font-family: calder-dark-grit, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+}
+
+.case-study p {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+}
+
+.case-study button {
+    background-color: #30CFD0;
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 38px;
+}
+
+footer {
+    width: 100%;
+    position: static;
+}
+
+.my-footer {
+    display: inline-flex;
+    background-color: #000000;
+    width: 100%;
+    height: 160px;
+}
+
+.footer-left {
+    width: 50%;
+    color: white;
+    margin-left: 60px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    align-self: center;
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-right h3 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    padding-right: 80px;
+    align-self: center;
+}
+
+.footer-right img {
+    padding-right: 40px;
+    width: 80px;
+}
+
+.footer-right a {
+    align-self: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+}
+
+.profile-Preview img {
+    height: 520px;
+    padding: 0px 40px;
+}
+
+.intro-content img {
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.intro-content p {
+    width: 800px;
+    margin-left: 26px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.intro-content2 p {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.intro-content2 {
+    max-width: 1400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.profile-Preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/** challenge 18 Specific CSS Code **/
+.flexContainer,
+.flexContainer2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mySkills img {
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 270px;
+    height: 300px;
+    background-color: rgba(175, 255, 255, 0.7);
+    padding: 2%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.card p {
+    height: 120px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.card h3 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+    text-align: right;
+    margin-top: 1px;
+}
+
+hr {
+    width: 230px;
+    margin-right: 0;
+    border-top: 1px solid #1F1F1F;
+}
+
+.item1 {
+    grid-area: 'myArea';
+    grid-column: 1 / span 3;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    grid-template-columns: 480px 480px 480px;
+    grid-template-rows: 160px 680px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.workGrid h3 {
+    text-align: center;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.workGrid img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.workGrid button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 57px;
+    border-radius: 36px;
+    background-color: #30CFD0;
+    border: none;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.workGrid p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.finalButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.finalButton button {
+    width: 480px;
+    height: 91px;
+    border-radius: 113px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 35px;
+    background-color: #adadad;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .left {
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .right {
+        width: 70%;
+    }
+
+    .topnav a {
+        font-size: 14px;
+    }
+
+    .topnav a.active {
+        font-size: 14px;
+    }
+
+    .intro-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .profile-Preview img {
+        width: 80%;
+        padding-bottom: 40px;
+    }
+
+    .footer-left {
+        width: 40%;
+    }
+
+    .footer-right {
+        width: 60%;
+    }
+
+    .footer-right h3 {
+        font-size: 20px;
+    }
+
+    .footer-right img {
+        width: 40px;
+    }
+
+    .item1 {
+        grid-area: 'myArea';
+        grid-column: 1 / span 2;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-areas: 'myArea myArea';
+        grid-template-columns: 380px 380px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .item1 {
+        grid-area: 'myArea';
+        grid-column: 1 / span 1;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-areas: 'myArea';
+        grid-template-columns: 400px;
+    }
+
+    .profile-Preview img {
+        height: 20%;
+        padding-bottom: 40px;
+    }
+}
